@@ -36,7 +36,7 @@ pub fn part_one(input: &str) -> Option<u64> {
         total += get_joltage(line, 2).unwrap();
     }
 
-    println!("Total: {}", total);
+    // println!("Total: {}", total);
     Some(total)
 }
 
@@ -46,7 +46,7 @@ pub fn part_two(input: &str) -> Option<u64> {
         total += get_joltage(line, 12).unwrap();
     }
 
-    println!("Total: {}", total);
+    // println!("Total: {}", total);
     Some(total)
 }
 
