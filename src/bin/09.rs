@@ -78,7 +78,8 @@ pub fn part_two(input: &str) -> Option<u64> {
         }
     }
 
-    Some(best_size)
+    // Some(best_size)
+    None
 }
 
 #[cfg(test)]
